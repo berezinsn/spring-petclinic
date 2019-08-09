@@ -44,15 +44,17 @@
         <mojo-exec.version>1.6.0</mojo-exec.version>
         <resources-plugin.version>3.1.0</resources-plugin.version>
         <docker-registry>registry.ci-cd.ru:16000</docker-registry>
-        <git-repo>https://github.com/berezinsn/spring-petclinic</git-repo>
+        <git-repo>https://github.com/berezinsn/spring-petclinic.git</git-repo>
         <maven-deploy-plugin>2.8.2</maven-deploy-plugin>
         <maven-release-plugin>2.5.3</maven-release-plugin>
+        <git-dev-conn>scm:git:git@github.com:berezinsn/spring-petclinic.git</git-dev-conn>
     </properties>
 
     <scm>
-        <developerConnection>scm:git:${git-repo}</developerConnection>
-      <tag>test3</tag>
-  </scm>
+        <developerConnection>${git-dev-conn}</developerConnection>
+        <url>${git-repo}</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <repositories>
         <repository>
