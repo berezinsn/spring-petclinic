@@ -6,3 +6,5 @@ petclinic-application/target/*
 .project
 .factorypath
 .attach_pid*
+.idea
+.iml
