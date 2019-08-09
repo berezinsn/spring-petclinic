@@ -51,7 +51,7 @@
 
     <scm>
         <developerConnection>scm:git:${git-repo}</developerConnection>
-      <tag>test3</tag>
+      <tag>test5</tag>
   </scm>
 
     <repositories>
