@@ -8,3 +8,4 @@ petclinic-application/target/*
 .attach_pid*
 .idea
 .iml
+.swp
