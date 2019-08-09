@@ -7,5 +7,5 @@ petclinic-application/target/*
 .factorypath
 .attach_pid*
 .idea
-.iml
-.swp
+**/*.iml
+**/*.swp
