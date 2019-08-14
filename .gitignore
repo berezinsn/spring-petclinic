@@ -9,3 +9,4 @@ petclinic-application/target/*
 .idea
 **/*.iml
 **/*.swp
+env.properties
