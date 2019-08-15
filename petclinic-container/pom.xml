@@ -90,7 +90,7 @@
                                         <argument>build</argument>
                                         <argument>.</argument>
                                         <argument>-t</argument>
-                                        <argument>${docker-registry}/dev/${project.artifactId}:${project.version}</argument>
+                                        <argument>${docker-registry}/dev/petclinic:${project.version}</argument>
                                     </arguments>
                                 </configuration>
                             </execution>
@@ -104,7 +104,7 @@
                                     <executable>docker</executable>
                                     <arguments>
                                         <argument>push</argument>
-                                        <argument>${docker-registry}/dev/${project.artifactId}:${project.version}</argument>
+                                        <argument>${docker-registry}/dev/petclinic:${project.version}</argument>
                                     </arguments>
                                 </configuration>
                             </execution>
